@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <>
-      <img src="\Images\EcoTrack.png" alt="EcoTrack" width="100px"/>
+      <img src="../Images/EcoTrack.png" alt="EcoTrack" width="100px"/>
       <nav>
       
         <Link to="/">Home</Link> &nbsp;
