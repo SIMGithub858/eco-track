@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: #f4f4f4;
+    background-color:#1F3934;
     color: #333;
     display: flex;
     justify-content: center;
