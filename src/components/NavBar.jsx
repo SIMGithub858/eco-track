@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import AuthContext from "../context/AuthContext";
-import EcoTrack from '../Images/EcoTrack.png';
+import ecoTrack from '../Images/EcoTrack.png';
 
 function Navbar() {
   const { user, logout } = useContext(AuthContext);
 
   return (
     <>
-      <img src={EcoTrack} alt="EcoTrack" width="100px"/>
+      <img src={ecoTrack} alt="EcoTrack" width="100px"/>
       <nav>
       
         <Link to="/">Home</Link> &nbsp;
