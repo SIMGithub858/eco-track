@@ -6,18 +6,21 @@ function Navbar() {
   const { user, logout } = useContext(AuthContext);
 
   return (
-    <nav>
-      <img src="\Images\EcoTrack.png" alt="EcoTrack" />
-      <Link to="/">Home</Link> &nbsp;
-      {user ? (
-        <>
-          <Link to="/dashboard">Dashboard</Link>
-          <button onClick={logout}>Logout</button>
-        </>
-      ) : (
-        <Link to="/login">Login</Link>
-      )}
-    </nav>
+    <>
+      <img src="\Images\EcoTrack.png" alt="EcoTrack" width="100px"/>
+      <nav>
+      
+        <Link to="/">Home</Link> &nbsp;
+        {user ? (
+          <>
+            <Link to="/dashboard">Dashboard</Link>
+            <button onClick={logout}>Logout</button>
+          </>
+        ) : (
+          <Link to="/login">Login</Link>
+        )}
+      </nav>
+    </>
   );
 }
 
