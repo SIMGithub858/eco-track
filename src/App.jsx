@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom/client';
 import Home from "./pages/Home"; 
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
-import Navbar from "@/components/NavBar.jsx";
+import Navbar from "./components/NavBar.jsx";
 
 
 function App() {
