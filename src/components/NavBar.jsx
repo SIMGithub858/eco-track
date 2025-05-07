@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <nav>
-      <h1>EcoTrack</h1>
+      <img src="./Images/EcoTrack.png" alt="" />
       <Link to="/">Home</Link> &nbsp;
       {user ? (
         <>
